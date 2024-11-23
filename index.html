@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <div class="wrapperContainer-dark">
+    <div class="wrapperContainer wrapperContainer-dark wrapperContainer-fixed">
         <header class="header container">
             <img src="imagens/logoAprenser.png" alt="Aprenser">
             
@@ -43,9 +43,9 @@
 
     </div>
 
-    <div class="wrapperContainer-ligth">
-        <section id="cursos" class="cursos container">
-            <h2>Principais Cursos</h2>
+    <div class="wrapperContainer wrapperContainer-ligth wrapperContainer-padded" id="cursos">
+        <section  class="cursos container">
+            <h2 class="section_title">Principais Cursos</h2>
             <div class="cursosContainer">
                 <article class="curso_card">
                     <img src="imagens/curso-design-1.png" alt="Curso design">
@@ -75,28 +75,30 @@
                 </article>
 
             </div>
-            <a href="#" class="btn">Ver mais cursos</a>
+            <a href="#" class="btn section_btn">Ver mais cursos</a>
         </section>
 
     </div>
     
-    <div class="wrapperContainer-dark2">
+    <div class="wrapperContainer wrapperContainer-dark2 wrapperContainer-padded" id="escola">
 
-        <section class="container" id="Escola">
+        <section class="container escola" >
             <img src="imagens/nossa-escola.png" alt="mulher jovem feliz">
-            <h2>Nossa escola</h2>
-            <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.</p>
+            <div class="escola_content">
+                <h2 class="escola_title">Nossa escola</h2>
+                <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.</p>
+            </div>
         </section>
         
     </div>
 
-
-    <div class="wrapperContainer-ligth">
-        <section class="container" id="Contatos">
-            <h2>Contatos</h2>
+ 
+    <div class="wrapperContainer wrapperContainer-ligth wrapperContainer-padded" id="contatos">
+        <section class="container" >
+            <h2 class="section_title">Contatos</h2>
             
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.5193707138014!2d-46.65906922571359!3d-23.561349561589815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e1!3m2!1spt-BR!2sbr!4v1731493593362!5m2!1spt-BR!2sbr" width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <address>
+            <address class="contatos_address">
                 Av. da Liberdade, 1001<br>
                 Tel.: +351 21 123 456<br>
                 E-mail: contato@aprenser.com
@@ -104,8 +106,8 @@
         </section>
     </div>
 
-    <div class="wrapperContainer-ligth">
-        <footer>Desenvolvido por Serliv</footer>
+    <div class="wrapperContainer wrapperContainer-dark">
+        <footer class="footer">Desenvolvido por Serliv</footer>
     </div>
 </body>
 </html>
